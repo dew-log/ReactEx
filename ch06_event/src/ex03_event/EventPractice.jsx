@@ -6,12 +6,12 @@ const EventPractice = () => {
 
     const onChangeUsername = (e)=>setUsername(e.target.value);
     const onChangeMessage = (e)=>setMessage(e.target.value);
-    const onClick = () =>{
+    const onClick = ()=>{
         alert(username + ":" + message);
         setUsername("");
         setMessage("");
     }
-    const onkeyDown = (e)=>{
+    const onKeyDown = (e)=>{
         if(e.key==="Enter") onClick();
     }
 
@@ -19,9 +19,9 @@ const EventPractice = () => {
         <div>
             <h1>이벤트 연습</h1>
             <input type="text" name="username" placeholder="사용자명"
-                    value={username} onChange={onChangeUsername} />
+                    value={username} onChange={onChangeUsername}/> 
             <input type="text" name="message" placeholder="아무거나 입력해 보세요"
-                    value={message} onChange={onChangeMessage} />
+                    value={message} onChange={onChangeMessage} onKeyDown={onKeyDown} />
             <button onClick={onClick}>확인</button>
         </div>
     )
