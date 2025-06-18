@@ -17,7 +17,16 @@ import './App.css';
 // import SubApp from './ex15_create/SubApp';
 // import SubApp from './ex16_create/SubApp';
 // import SubApp from './ex17_create/SubApp';
-import SubApp from './ex18_create/SubApp';
+// import SubApp from './ex18_create/SubApp';
+// import SubApp from './ex19_update/SubApp';
+// import SubApp from './ex20_update/SubApp';
+// import SubApp from './ex21_update/SubApp';
+// import SubApp from './ex22_update/SubApp';
+// import SubApp from './ex23_update/SubApp';
+// import SubApp from './ex24_update/SubApp';
+// import SubApp from './ex25_update/SubApp';
+// import SubApp from './ex26_update/SubApp';
+import SubApp from './ex27_update/SubApp';
 
 
 function App() {
