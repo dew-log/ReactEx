@@ -6,10 +6,20 @@ import './App.css';
 // import Info from './ch04_useEffect/Info';
 // import Info from './ch05_useEffect/Info';
 // import Info from './ch06_useEffect/Info';
-import Info from './ch07_useEffect/Info';
+// import Info from './ch07_useEffect/Info';
+// import Info from './ch08_useEffect/Info';
+// import ParentInfo from './ch08_useEffect/ParentInfo';
+// import Counter from './ch09_useReducer/Counter';
+import Info from './ch10_useReducer/Info';
 
 function App() {
   return (
+    // <Counter />
+
+    // <Info />
+
+    // <ParentInfo />
+
     // <Counter />
 
     <Info />
