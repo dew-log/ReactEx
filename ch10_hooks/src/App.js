@@ -10,19 +10,26 @@ import './App.css';
 // import Info from './ch08_useEffect/Info';
 // import ParentInfo from './ch08_useEffect/ParentInfo';
 // import Counter from './ch09_useReducer/Counter';
-import Info from './ch10_useReducer/Info';
+// import Info from './ch10_useReducer/Info';
+// import Average from './ch11_useMemo/Average';
+// import Average from './ch12_useMemo/Average';
+// import Average from './ch13_useCallback/Average';
+// import Info from './ch15_useCustomHook/Info';
+// import Spec from './ch15_useCustomHook/Spec';
+import ClassRoom from './ch16_useCustomHook/ClassRoom';
 
 function App() {
   return (
     // <Counter />
-
     // <Info />
-
     // <ParentInfo />
-
     // <Counter />
+    // <Info />
+    // <Average />
+    // <Info />
+    // <Spec />
+    <ClassRoom />
 
-    <Info />
   );
 }
 
